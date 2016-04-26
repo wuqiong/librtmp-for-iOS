@@ -53,6 +53,7 @@ if [ ! -d "$DEVELOPER" ]; then
     exit 1
 fi
 
+mkdir -p $INCLUDEPATH $LIBPATH
 
 if [ ! -d "$OPENSSLPATH" ]; then
     git clone "$OPENSSLREPO" $OPENSSLPATH
