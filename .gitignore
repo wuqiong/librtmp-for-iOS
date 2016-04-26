@@ -1,0 +1,5 @@
+build/
+src/
+include/
+lib/
+*.tar.gz
